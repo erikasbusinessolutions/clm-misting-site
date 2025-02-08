@@ -11,7 +11,7 @@ export default function Home() {
         <p className="mt-4 text-lg max-w-2xl mx-auto">
           Advanced mosquito misting systems designed for residential and commercial spaces.
         </p>
-        <button className="mt-6 bg-highlight px-6 py-3 hover:bg-accent">
+        <button className="mt-6 bg-highlight px-6 py-3 text-white hover:bg-accent">
           Request a Quote
         </button>
       </header>
