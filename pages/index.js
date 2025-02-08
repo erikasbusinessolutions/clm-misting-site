@@ -54,7 +54,7 @@ export default function Home() {
           <a href="#" className="text-gray-600 hover:text-primary">Contact Us</a>
         </div>
 
-        {/* Social Media Links - Tiny & Well-Aligned */}
+        {/* Social Media Links */}
         <div className="flex justify-center space-x-3 mb-4">
           <a href="https://www.facebook.com/CLMMistingSolutions" target="_blank" rel="noopener noreferrer">
             <img 
