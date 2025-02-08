@@ -54,7 +54,7 @@ export default function Home() {
           <a href="#" className="text-gray-600 hover:text-primary">Contact Us</a>
         </div>
 
-        {/* Social Media Links */}
+        {/* Social Media Links - Tiny & Well-Aligned */}
         <div className="flex justify-center space-x-3 mb-4">
           <a href="https://www.facebook.com/CLMMistingSolutions" target="_blank" rel="noopener noreferrer">
             <img 
@@ -79,7 +79,10 @@ export default function Home() {
           </a>
         </div>
 
+        {/* Divider Line */}
         <div className="border-t border-gray-300 my-4 w-3/4 mx-auto"></div>
+
+        {/* Copyright Notice */}
         <p className="text-xs">&copy; 2025 CLM Misting Solutions. All Rights Reserved.</p>
       </footer>
     </div>
