@@ -45,31 +45,31 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-white text-gray-700 text-center py-10 mt-10 border-t-4 border-primary">
-        {/* Footer Links */}
-        <div className="flex justify-center space-x-6 mb-6 text-sm font-medium">
-          <a href="#" className="text-gray-600 hover:text-primary">Terms of Use</a>
-          <a href="#" className="text-gray-600 hover:text-primary">Privacy Policy</a>
-          <a href="#" className="text-gray-600 hover:text-primary">Legal Notices</a>
-          <a href="#" className="text-gray-600 hover:text-primary">Contact Us</a>
-        </div>
+<footer className="bg-white text-gray-700 text-center py-8 mt-10 border-t-4 border-primary">
+  {/* Footer Links */}
+  <div className="flex justify-center space-x-5 mb-4 text-sm font-medium">
+    <a href="#" className="text-gray-600 hover:text-primary">Terms of Use</a>
+    <a href="#" className="text-gray-600 hover:text-primary">Privacy Policy</a>
+    <a href="#" className="text-gray-600 hover:text-primary">Legal Notices</a>
+    <a href="#" className="text-gray-600 hover:text-primary">Contact Us</a>
+  </div>
 
-        {/* Social Media Links - Smaller & Properly Aligned */}
-        <div className="flex justify-center space-x-4 mb-6">
-          <a href="https://www.facebook.com/CLMMistingSolutions" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" className="w-5 h-5 hover:opacity-80 transition"/>
-          </a>
-          <a href="https://twitter.com/CLMMistingSolutions" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png" alt="X" className="w-5 h-5 hover:opacity-80 transition"/>
-          </a>
-          <a href="https://www.instagram.com/CLMMistingSolutions" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" className="w-5 h-5 hover:opacity-80 transition"/>
-          </a>
-        </div>
+  {/* Social Media Links - **Now Tiny & Well-Aligned** */}
+  <div className="flex justify-center space-x-3 mb-4">
+    <a href="https://www.facebook.com/CLMMistingSolutions" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" 
+        alt="Facebook" className="w-4 h-4 opacity-80 hover:opacity-100 transition"/>
+    </a>
+    <a href="https://twitter.com/CLMMistingSolutions" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png" 
+        alt="X" className="w-4 h-4 opacity-80 hover:opacity-100 transition"/>
+    </a>
+    <a href="https://www.instagram.com/CLMMistingSolutions" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" 
+        alt="Instagram" className="w-4 h-4 opacity-80 hover:opacity-100 transition"/>
+    </a>
+  </div>
 
-        <div className="border-t-2 border-primary my-6"></div>
-        <p className="text-sm">&copy; 2025 CLM Misting Solutions. All Rights Reserved.</p>
-      </footer>
-    </div>
-  );
-}
+  <div className="border-t border-gray-300 my-4 w-3/4 mx-auto"></div>
+  <p className="text-xs">&copy; 2025 CLM Misting Solutions. All Rights Reserved.</p>
+</footer>
